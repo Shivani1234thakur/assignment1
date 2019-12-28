@@ -1,0 +1,75 @@
+#1. write a program of python for tasking two inputs from user and
+# perform addition,subtraction,multiplication,divide operation
+# on the input.
+
+
+
+
+
+a=int(input("Enter the value a="))
+b=int(input("Enter the value b="))
+print(a+b)
+print(a-b)
+print(a/b)
+print(a*b)
+
+#2. write a program to check a given input is integer type or not
+
+s=input("enter the value of s=")
+v=input("enter the value of v= ")
+
+if type(s)==type(v):
+    print("given input is str")
+else:
+    print("given input is int")
+
+# if(s.isdigit()):
+#     print("given value is integer")
+#     print("true")
+# else:
+#  print("given value is string ")
+#
+
+#3.write a program to check given input is the list items or not
+
+
+
+v=["shivani","shalu","bhavna","nishi"]
+item=input("enter the item")
+if item in v:
+    print("item in list")
+else:
+    print("not in list")
+# if item==v[0]:
+#     print("item at 0")
+# elif item==v[1]:
+#     print("item at 1")
+# elif item==v[2]:
+#     print("item at 2")
+# elif item==v[3]:
+#     print("item at 3")
+# else:
+#     print("item is not ")
+
+#4.write a program for taking the value from user in list
+# such as your name,class,rollno.,college name,branch and
+# to print all of this value in one line print function
+list=[]
+name=(input("Enter the name="))
+branch=(input("Enter the branch="))
+rollno=int(input("Enter the rollno="))
+collegename=(input("Enter the college name="))
+Class=int(input("Enter the class="))
+
+list.append(name)
+list.append(branch)
+list.append(rollno)
+list.append(collegename)
+list.append(Class)
+
+print(list)
+
+
+
+
+
